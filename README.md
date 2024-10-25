@@ -1,0 +1,2 @@
+We are creating a sleep tracker website.
+The user will be able to keep track of how many hours of sleep they get each night and the website will tell them their average number of hours of sleep and whether or not they are sleeping enough. 
