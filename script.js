@@ -43,6 +43,11 @@ console.log (totalHours)
   
   console.log(`Your average number of hours slept per night is ${averageHours.toFixed(2)}`);
   
+  if (averageHours > 7) {
+    alert(`Your average number of hours slept per night is ${averageHours.toFixed(2)}. This week you slept a healthy amount. Good Job! `)
+    } else {
+      alert(`Your average number of hours slept per night is ${averageHours.toFixed(2)}. You should try to sleep more to avoid to avoid health issues.`)
+    }
   }
 )
 
