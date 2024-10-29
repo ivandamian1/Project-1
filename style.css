@@ -4,15 +4,64 @@ body{
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the image */
 }
- h2 {
+
+/*header {
+    background-color: aqua;
+
+} */
+.container{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 { /*title font*/
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 300%;
+}
+.bg-secondary {
+    background-color: #2d074d;
+}
+   
+ h2 { /*for "Enter Hours of Sleep line */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: aliceblue;
+ }
+
+ h3 { /*for font of group name at bottom */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    color: aliceblue;
+ }
+
+ form label { /*for font of dates */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     color: aliceblue;
  }
  label{
     color:aliceblue;
  }
 
-/* 
+ .input { /*trying to adjust size of input box, no success */
+    width: 20%; 
+    height: 20%; 
+    padding: 10px; 
+    font-size: 16px; 
+}
+.btn{
+    color:black;
+}
+.btn-primary {
+    color:aliceblue;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
 
+/*
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 600px;
