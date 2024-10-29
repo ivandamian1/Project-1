@@ -41,6 +41,8 @@ console.log (totalHours)
   
   const averageHours = addedHours / 7;
   
+  localStorage.setItem('average', averageHours);
+
   console.log(`Your average number of hours slept per night is ${averageHours.toFixed(2)}`);
   
   if (averageHours > 7) {
