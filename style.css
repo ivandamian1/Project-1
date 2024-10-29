@@ -42,6 +42,7 @@ h1 { /*title font*/
     font-weight: bold;
     color: aliceblue;
  }
+
  label{
     color:aliceblue;
  }
@@ -52,9 +53,15 @@ h1 { /*title font*/
     padding: 10px; 
     font-size: 16px; 
 }
+
+.bg-secondary {
+    background-color: #2d074d !important;
+}
+
 .btn{
     color:black;
 }
+
 .btn-primary {
     color:aliceblue;
     background-color: blueviolet;
