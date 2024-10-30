@@ -40,15 +40,17 @@ console.log (totalHours)
 
   
   const averageHours = addedHours / 7;
+
+  const resultsBody = document.getElementById('results')
   
   localStorage.setItem('average', averageHours);
 
   console.log(`Your average number of hours slept per night is ${averageHours.toFixed(2)}`);
   
   if (averageHours > 7) {
-    alert(`Your average number of hours slept per night is ${averageHours.toFixed(2)}. This week you slept a healthy amount. Good Job! `)
+    resultsBody.textContent = `Your average number of hours slept per night is ${averageHours.toFixed(2)}. This week you slept a healthy amount. Good Job! `
     } else {
-      alert(`Your average number of hours slept per night is ${averageHours.toFixed(2)}. You should try to sleep more to avoid to avoid health issues.`)
+      resultsBody.textContent = `Your average number of hours slept per night is ${averageHours.toFixed(2)}. You should try to sleep more to avoid health issues.`
     }
   }
 )
