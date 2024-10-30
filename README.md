@@ -16,7 +16,7 @@ We believe this information can be instrumental in helping users evaluate their 
  
 
 SO THAT we can showcase our thoughts and experiences.
-```
+
 
 
 ## Mock-Up
@@ -28,3 +28,5 @@ add screenshot or link to app
 ![SiteView](./assets/SiteView.png)
 
 ![goalMet](./assets/goalMet.png)
+
+![goalNotMet](./assets/goalNotMet.png)
