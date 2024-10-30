@@ -23,4 +23,8 @@ SO THAT we can showcase our thoughts and experiences.
 
 The following animation demonstrates the application functionality:
 
-add screenshot or link to app
+add screenshot or link to app 
+
+![SiteView](./assets/SiteView.png)
+
+![goalMet](./assets/goalMet.png)
