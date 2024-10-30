@@ -16,11 +16,17 @@ We believe this information can be instrumental in helping users evaluate their 
  
 
 SO THAT we can showcase our thoughts and experiences.
-```
+
 
 
 ## Mock-Up
 
 The following animation demonstrates the application functionality:
 
-add screenshot or link to app
+add screenshot or link to app 
+
+![SiteView](./assets/SiteView.png)
+
+![goalMet](./assets/goalMet.png)
+
+![goalNotMet](./assets/goalNotMet.png)
